@@ -1,0 +1,225 @@
+body {
+  font-family: 'Lato', 'Helvetica', 'sans-serif';
+}
+
+/* .backgroundImage {
+  background: url(../img/background/landscape.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+} */
+
+.navbar-brand {
+  padding-left: 0px;
+}
+
+.nav li a {
+  font-size: 14px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+#home {
+  /* min-height: 100vh; */
+  color: white;
+  /* background: url(../img/gradient.png) 50% 35% / cover no-repeat white; */ 
+  background: #fff no-repeat 0;
+  background-image: url(../img/gradient.png);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+/* home layover text  */
+.full-width-image {
+  width: 100%;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.splash-logo {
+  height: 100px;
+  margin-top: 150px;
+}
+
+.home-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#home h3 {
+  font-size: 54px;
+}
+
+#home h4 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#splash-1 {
+  margin-top: 200px;
+}
+
+#splash-2 {
+  align-self: flex-end;
+}
+/* home layover text */
+
+#about p {
+  font-size: 16px;
+}
+
+#about h5 {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#how-it-works h2 {
+  color: white;
+}
+
+#how-it-works {
+  background: #fff no-repeat 0;
+  background-image: url(../img/gradient.png);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.white-transparent {
+  background-color: rgba(255,255,255,0.25);
+}
+
+.lines {
+  width: 69.5%;
+  margin: 10px 0px;
+}
+
+.lines img {
+  vertical-align: middle;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+.about-image {
+  margin: 30px 0px 0px;
+}
+
+.about-image h4 {
+  margin-top: 30px;
+}
+
+.about-image p {
+  text-align: center;
+}
+
+.team-image {
+  margin: 45px 0px 0px;
+}
+
+.team-image h4 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.team-image h5 {
+  margin-top: 0px;
+}
+
+.about-image img {
+  height: 120px;
+  border-radius: 10%;
+}
+
+.team-image img {
+  height: 120px;
+  border-radius: 50%;
+}
+
+.pale-gray {
+  background-color: rgba(241, 239, 239, 0.89);
+  padding: 50px 0px;
+}
+
+.white {
+  padding: 50px 0px;
+}
+
+.space-around-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.centered-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.team-image .social-icon {
+  height: 25px;
+  margin: 3px;
+  border-radius: 0%;
+}
+
+#contact {
+  padding: 0px;
+  background: #e2e2e2;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contact-hero {
+  background: white no-repeat 50% 50%;
+  background-image: url(../img/gradient.png);
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+#contact .overlay {
+  background-color: rgba(0,0,0,0.6);
+  padding: 50px 0px 10px;
+  min-height: 70vh;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.button {
+  color: white;
+  background-color: #f49b1d;
+  border: none;
+  border-radius: 0px;
+  width: 250px;
+  height: 40px;
+}
+
+footer {
+  padding: 30px 0px;
+}
