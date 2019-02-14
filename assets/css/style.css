@@ -41,7 +41,7 @@ body {
   background-color: inherit;
   padding: 15px 2px 2px;
   margin: 0px 13px;
-  border-bottom: 2px solid #e73e28;
+  border-bottom: 2px solid #8683EA; /*dark accent*/
 }
 
 .navbar-brand {
@@ -161,7 +161,7 @@ h2 {
 }
 
 .faq-index .item.active .title {
-  color: #e73e28;
+  color: #8683EA;
 }
 
 .faq-index .title {
@@ -192,7 +192,7 @@ h2 {
 }
 
 .faq-index .item.active .arrows {
-  color: #e73e28;
+  color: #8683EA; /*dark accent */
   opacity: 1;
 }
 .faq-index .arrows {
@@ -509,9 +509,9 @@ p {
 }
 
 #contact-hero {
-  background: -moz-linear-gradient(45deg, #ffffff 1%, #fc9862 46%, #f22121 99%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(225deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(45deg, #ffffff 1%, #A6B1F8 46%, #A19EED 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ffffff 1%,#A6B1F8 46%,#A19EED 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(225deg, #ffffff 1%,#A6B1F8 46%,#A19EED 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f22121',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   /*background: white no-repeat 50% 50%;
   background-image: url(../img/background/parchment.jpg);
